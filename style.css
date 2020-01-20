@@ -21,6 +21,7 @@ body {
 
 .nav {
     display: flex;
+    flex-flow: row nowrap;
     font-family: 'Poppins', sans-serif;
     font-weight: 400, 700;
     width: 85%;
@@ -31,6 +32,7 @@ body {
 
 .container {
     display: flex;
+    flex-flow: row nowrap;
     width: 85%;
     justify-content: center;
     /* align-items: center; */
@@ -59,7 +61,7 @@ body {
 
 .content .btn {
     display: inline-block;
-    color: #fff;
+    /* color: #fff; */
     text-decoration: none;
     padding: 2.2rem;
     background-color: #fff;
@@ -73,6 +75,7 @@ body {
 
 #foot {
     display: flex;
+    flex-flow: row wrap;
     color: #fff;
     justify-content: flex-end;
     margin: 0 7rem;

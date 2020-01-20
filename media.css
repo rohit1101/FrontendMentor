@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("img/bg-mobile.svg");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* background-position: center top/contain; */
+    font-family: 'Open Sans';
+}
+
+.nav .title{
+    display: flex;
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 2rem;
+    margin-top: -3rem;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    flex: 1;
+}
+
+.container .mockup {
+    width: 100%;
+    padding: 0 5rem;
+    height: 90%;
+    margin-bottom: 9rem;
+}
+
+.content {
+    padding: 0 5rem;
+    text-align: center;
+    margin: auto;
+    font-size: 1rem;
+    width: 100%;
+    flex: 1;
+}
+
+.content h1 {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.content p {
+    font-size: 1.45rem;
+    line-height: 1.5;
+}
+
+.content .btn {
+    width: 70%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 10%/50%;
+}
+
+#foot {
+    padding: 4rem 0;
+    margin: 0 9rem;
+    font-size: 1rem;
+}
+
+.fa {
+    margin: 0 auto;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
